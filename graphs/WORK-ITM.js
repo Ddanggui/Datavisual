@@ -237,6 +237,6 @@ d3.csv("database/all.csv").then(function (data) {
     title: "",
   };
 
-  Plotly.newPlot("myGraph6", data_1, layout_1);
-  Plotly.newPlot("myGraph7", data_2, layout_2);
+  Plotly.newPlot("myGraph7", data_1, layout_1);
+  Plotly.newPlot("myGraph8", data_2, layout_2);
 });
