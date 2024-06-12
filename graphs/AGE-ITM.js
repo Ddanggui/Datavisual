@@ -55,5 +55,5 @@ d3.csv("database/all.csv").then(function (data) {
         }
     };
 
-    Plotly.newPlot("myGraph4", [traceAvg, traceMax, traceMin], layout);
+    Plotly.newPlot("graph_AGE-ITM", [traceAvg, traceMax, traceMin], layout);
 });

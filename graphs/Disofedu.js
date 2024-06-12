@@ -41,4 +41,4 @@ let layout = {
     barmode:'stack'
 };
 
-Plotly.newPlot(myGraph1, data, layout);
+Plotly.newPlot("graph_disofedu", data, layout);

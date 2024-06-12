@@ -51,5 +51,5 @@ d3.csv("database/all.csv").then(function (data) {
         yaxis: { title: '年齡' }
     };
 
-    Plotly.newPlot("myGraph6", [trace], layout);
+    Plotly.newPlot("graph_WORK-AGE", [trace], layout);
 });

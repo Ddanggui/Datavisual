@@ -77,5 +77,5 @@ d3.csv("database/all.csv").then(function (data) {
 
   let config = {responsive: true}
 
-  Plotly.newPlot("myGraph3", [trace_Men, trace_Women], layout, config);
+  Plotly.newPlot("graph_SEX-IND", [trace_Men, trace_Women], layout, config);
 });

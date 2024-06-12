@@ -73,5 +73,5 @@ function draw_map(school_data, geo_data) {
         }
     };
 
-    Plotly.newPlot("myGraph2", data, layout);
+    Plotly.newPlot("graph_disofitm", data, layout);
 }

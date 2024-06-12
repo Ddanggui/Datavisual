@@ -62,5 +62,5 @@ d3.csv("database/all.csv").then(function (data) {
     },
   };
 
-  Plotly.newPlot("myGraph5", [trace_Men, trace_Women], layout);
+  Plotly.newPlot("graph_SEX-ITM", [trace_Men, trace_Women], layout);
 });
