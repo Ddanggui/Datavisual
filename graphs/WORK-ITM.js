@@ -107,7 +107,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[4],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceHealth = {
@@ -129,7 +129,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[6],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceAccommodation = {
@@ -140,7 +140,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[7],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceInformation = {
@@ -151,7 +151,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[8],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceTransport = {
@@ -162,7 +162,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[9],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceOther = {
@@ -173,7 +173,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[0],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceSupport = {
@@ -184,7 +184,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[1],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceFarming = {
@@ -195,7 +195,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[2],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var traceNoWork = {
@@ -206,7 +206,7 @@ d3.csv("database/all.csv").then(function (data) {
       color: colors[3],
     },
     boxmean: true,
-    boxpoints: false
+    boxpoints: false,
   };
 
   var data_1 = [
