@@ -27,6 +27,11 @@ for (let i = 0; i < attributes.length; i++) {
     trace.y = [];
 
     for (let j = 0; j < eval(attributes[i]).length; j++) {
+        let name = eval(attributes[i])[j]['name'];
+        // 检查name是否为我们要删除的值
+        if (name === '武職退休(軍人)' || name === '國外(含大陸)' || name === '文職退休(含警察月退、勞工退休金月退)' || name === '') {
+            continue;  // 如果是，跳过这个循环
+        }
         trace.x[j] = eval(attributes[i])[j]['name'];
         // 将trace.y除以对应name之和
         trace.y[j] = eval(attributes[i])[j]['count'] / nameSums[trace.x[j]];
