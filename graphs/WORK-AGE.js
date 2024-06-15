@@ -9,9 +9,9 @@ d3.csv("database/all.csv").then(function (data) {
         let income = parseInt(row['ITM40']);
 
         // Skip if workplace is empty
-        if (workplace === '') {
-            return;
-        }
+        if (workplace === '' || workplace === '國外(含大陸)' || workplace === '武職退休(軍人)' || workplace === '文職退休(含警察月退、勞工退休金月退)') {
+    return;
+}
 
         if (!incomeData[workplace]) {
             incomeData[workplace] = {};
